@@ -3,6 +3,7 @@ const jwt = require("jsonwebtoken");
 module.exports = {
   checkDuplicateUser: (arr, email) => {
     console.log("ss");
+    console.log("ll");
 
     let obj = arr.filter(function (user) {
       if (user.email === email) {
